@@ -1,11 +1,11 @@
 
 #include <stdio.h>
 
-int main(int argc, char const *argv[])
+int main()
 {
-	int i, j, sum, dif;
 	int i, j, sum, dif, division, mult;
-	scanf("%d%d", &i,&j);
+	scanf("%d", &i);
+	scanf("%d", &j);
 	sum = i + j;
 	dif = i - j;
 	mult = i * j;
